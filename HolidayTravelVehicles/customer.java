@@ -33,6 +33,10 @@ public class Customer {
         this.phoneNumber = phoneNumber;
     }
 
+    public void purchaseVehicle(Vehicle vehicle) {
+        return purchaseVehicle();
+    }
+
     public String getInfo(){
         return "Customer ID: " + customerID + ", Name: " + customerName + ", Phone Number: " + phoneNumber;
     }

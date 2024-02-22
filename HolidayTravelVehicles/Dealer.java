@@ -3,7 +3,7 @@ public class Dealer extends Employee {
 
     public Dealer(String id){
         super();
-        this.DealerID = id;
+        this.DealerID = newID;
     }
 
     public String getDealerID() {

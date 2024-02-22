@@ -6,7 +6,7 @@ public class Saleperson extends Employee {
 
     public Saleperson(String id){
         super();
-        this.SalepersonID = id;
+        this.SalepersonID = newID;
     }
 
     public String getSalepersonID() {
