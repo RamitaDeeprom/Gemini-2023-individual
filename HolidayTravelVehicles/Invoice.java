@@ -40,6 +40,38 @@ public class Invoice {
         return TradeinAllowance;
     }
 
+    public void setTradeinAllowance(boolean tradeinAllowance) {
+        TradeinAllowance = tradeinAllowance;
+    }
+
+    public int getFinalNegotiatePrice() {
+        return FinalNegotiatePrice;
+    }
+
+    public void setFinalNegotiatePrice(int finalNegotiatePrice) {
+        FinalNegotiatePrice = finalNegotiatePrice;
+    }
+
+    public String getPurchaseVegicleInfo() {
+        return PurchaseVegicleInfo;
+    }
+
+    public void setPurchaseVegicleInfo(String purchaseVegicleInfo) {
+        PurchaseVegicleInfo = purchaseVegicleInfo;
+    }
+
+    public int getTaxes() {
+        return Taxes;
+    }
+
+    public void setTaxes(int taxes) {
+        Taxes = taxes;
+    }
+
+    public int getLicenseFees() {
+        return LicenseFees;
+    }
+
     public void setLicenseFees(int licenseFees) {
         LicenseFees = licenseFees;
     }
@@ -63,5 +95,4 @@ public class Invoice {
         return str;
     }
 }
-
 
