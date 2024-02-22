@@ -11,8 +11,8 @@ public class Employee{
         this.StaffName = StaffName;
     }
 
-    public void setStaffID(int StaffID){
-        this.StaffID = StaffID;
+    public void setStaffName(String staffName){
+        this.StaffName = staffName;
     }
 
     public void setStaffName(String staffName){
@@ -20,7 +20,7 @@ public class Employee{
     }
 
     public int getStaffID(){
-        return this.StaffID;
+        return this.StaffID.toString();
     }
 
     public String getStaffName(){
