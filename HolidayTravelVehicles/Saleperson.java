@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Saleperson extends Employee {
     private String SalepersonID;
     private ArrayList<Vehicle> vehicles;
