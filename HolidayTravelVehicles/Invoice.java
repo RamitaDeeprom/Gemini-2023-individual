@@ -39,3 +39,29 @@ public class Invoice {
     public boolean isTradeinAllowance() {
         return TradeinAllowance;
     }
+
+    public void setLicenseFees(int licenseFees) {
+        LicenseFees = licenseFees;
+    }
+
+    public boolean isInstallOption() {
+        return InstallOption;
+    }
+
+    public void setInstallOption(boolean installOption) {
+        InstallOption = installOption;
+    }
+    public String getInvoiceInfo(){
+        String str = String.valueOf(this.CustomerInfo) +
+                this.TradeinVehicle +
+                this.TradeinAllowance +
+                this.FinalNegotiatePrice +
+                this.PurchaseVegicleInfo +
+                this.Taxes +
+                this.LicenseFees +
+                this.InstallOption;
+        return str;
+    }
+}
+
+
