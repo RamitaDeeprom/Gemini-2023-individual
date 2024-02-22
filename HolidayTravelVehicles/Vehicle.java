@@ -12,7 +12,7 @@ public class Vehicle{
     public Vehicle(){
     }
 
-    public Vehicle(int SerialNumber, String Name, String Model, int Year, String Manufacturer, int BaseCost) {
+    public Vehicle(int SerialNumber, String Name, String Model, int Year, String Manufacturer, int BaseCost){
         this.SerialNumber = SerialNumber;
         this.Name = Name;
         this.Model = Model;
@@ -21,7 +21,7 @@ public class Vehicle{
         this.BaseCost = BaseCost;
     }
 
-    public void setSerialNumber(int serialNumber) {
+    public void setSerialNumber(int serialNumber){
         this.SerialNumber = serialNumber;
     }
 
